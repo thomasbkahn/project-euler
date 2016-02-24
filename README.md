@@ -9,11 +9,11 @@ Each folder contains the solutions, as well as a README file that discusses the 
 
 ## Available Solutions
 
-For all posted solutions, the amount of time that it takes to run (on my machine) is posted in the table below. A blank entry means that I haven't yet posted a solution for that problem in that language. "Closed form" in the Notes column means that a closed form solution is possible. In these cases, the closed form solution is discussed in the README, but the programmatic solutions ignore this option to provide more of a challenge.
+For all posted solutions, the amount of time that it takes to run (on my machine) is posted in the table below. A blank entry means that I haven't yet posted a solution for that problem in that language. "Closed form" in the Notes column means that a O(1) closed form solution is possible. In these cases, the closed form solution is discussed in the README, but the programmatic solutions ignore this option to provide more of a challenge.
 
 |Number|Python|C++|Julia|MATLAB|Notes|
 |---|---|---|---|---|---|
-|001|33.6 µs||||Closed form|
+|[001](https://github.com/thomasbkahn/project-euler/tree/master/001)|33.6 µs|14.7 µs|||Closed form|
 
 ## Timing Specs
 
@@ -21,7 +21,7 @@ Solutions are timed via repeatedly calling the `solution` function and averaging
 
 MATLAB code is executed with GNU Octave. C++ code is compiled with g++.
 
-The specifications of my hardware and software (*i.e.* version numbers) are as follows:
+The specifications of my hardware and software (i.e. version numbers) are as follows:
 
 |Component|Specification|
 |---|---|

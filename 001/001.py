@@ -1,5 +1,3 @@
-
-
 def solution(a=3, b=5, n=1000):
     """Computes sum of all multiples of a or b that are less than n"""
     a_set = set(range(a, n, a))
