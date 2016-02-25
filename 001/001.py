@@ -14,15 +14,10 @@ if __name__ == '__main__':
     t_elapsed = timeit('solution()',
                        setup='from __main__ import solution',
                        number=3) / 3
-    n_iters  = 0
-    run_time = 10
 
-    if t_elapsed > 3:
-        pass
-    else:
-        n_iters = int(run_time / t_elapsed)
-
-    if n_iters:
+    if t_elapsed < 3:
+        run_time  = 10
+        n_iters   = int(run_time / t_elapsed)
         t_elapsed = timeit('solution()',
                            setup='from __main__ import solution',
                            number=n_iters) / n_iters

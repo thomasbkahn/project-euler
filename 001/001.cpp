@@ -38,11 +38,11 @@ int main() {
     timestamp_t t1 = get_timestamp();
 
     double t_elapsed = (t1 - t0) / 1000000.0L / 3;
-    int run_time = 10;
-    unsigned long long n_iters = 3;
 
     if (t_elapsed < 3) {
-         n_iters = run_time / t_elapsed;
+         int run_time = 10;
+         unsigned long long n_iters = run_time / t_elapsed;
+
          timestamp_t t0 = get_timestamp();
 
          for (int i = 0; i < n_iters; ++i) {
