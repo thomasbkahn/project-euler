@@ -1,5 +1,6 @@
 # project-euler
 Solutions to problems from [Project Euler](https://projecteuler.net/) in:
+
 1. Python
 2. C++
 3. Julia
@@ -46,6 +47,7 @@ Technically, no. Quoting from the [Project Euler FAQ](https://projecteuler.net/)
 I can confirm the above statement. I have learned a ton from working through these problems, and I encourage anyone that has interest in these problems to attempt to solve them on your own before looking at my solutions.
 
 I'm posting these solutions because:
+
 1. This is far from the only place on the internet that you can find Project Euler solutions (and far from the most complete set). In fact, there are several GitHub repositories of Project Euler solutions.
 2. In my opinion, the decision to "cheat" by looking at solutions is yours to make. If you are willing to work through these problems on your own first, you will most likely learn more than going through someone else's code. But if you just want to see an answer without going through the exercise, that's OK too.
 3. After solving a problem, it is very helpful to go through other peoples solutions and see where you can improve your code. In this repository, I'll post solutions in several different languages, along with performance benchmarks. Hopefully this will be useful not only for building skills in your language of choice, but will also illustrate the different strengths of each language and help guide you in choosing tools for a certain task.
