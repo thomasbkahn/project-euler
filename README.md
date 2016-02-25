@@ -1,4 +1,9 @@
 # project-euler
+
+<p align="center">
+  <img src="https://projecteuler.net/profile/thomaskahn.png"/>
+</p>
+
 Solutions to problems from [Project Euler](https://projecteuler.net/) in:
 
 1. Python
