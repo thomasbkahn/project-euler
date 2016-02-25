@@ -14,7 +14,7 @@ For all posted solutions, the amount of time that it takes to run (on my machine
 
 |Number|Python|C++|Julia|MATLAB|Notes|
 |---|---|---|---|---|---|
-|[001](https://github.com/thomasbkahn/project-euler/tree/master/001)|33.1 µs|16.7 µs|153 µs||Closed form|
+|[001](https://github.com/thomasbkahn/project-euler/tree/master/001)|33.1 µs|16.7 µs|159 µs|554 µs|Closed form|
 
 ## Timing Specs
 

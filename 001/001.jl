@@ -19,7 +19,7 @@ if t_elapsed < 3
     n_iters  = round(Int, run_time / t_elapsed)
     time_arr = zeros(n_iters)
     for i = 1:n_iters
-        time_arr = @elapsed solution()
+        time_arr[i] = @elapsed solution()
     end
     t_elapsed = mean(time_arr)
 end
