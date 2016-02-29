@@ -13,6 +13,8 @@ Solutions to problems from [Project Euler](https://projecteuler.net/) in:
 
 Each folder contains the solutions, as well as a README file that discusses the approach and the background mathematical theory, as well as the unique language-specific features that are being leveraged. The answer to each problem is calculated by a function that is always named `solution`, which is made to be as general as possible using parameter arguments. The default arguments reflect the specific values stated in the problem. All solutions use only the standard library of that language (except when an external library is absolutely necessary) and are intended to be as idiomatic as possible.
 
+__Note__: This is a work in progress. Currently, I am working through the 35 (mostly Python) solutions that I've already completed to clean up, optimize, and port to different languages.
+
 ## Available Solutions
 
 For all posted solutions, the amount of time that it takes to run (on my machine) is posted in the table below. A blank entry means that I haven't yet posted a solution for that problem in that language. "Closed form" in the Notes column means that a O(1) closed form solution is possible. In these cases, the closed form solution is discussed in the README, but the programmatic solutions ignore this option to provide more of a challenge.
@@ -20,7 +22,7 @@ For all posted solutions, the amount of time that it takes to run (on my machine
 |Number|Python|C++|Julia|MATLAB|Notes|
 |---|---|---|---|---|---|
 |[001](https://github.com/thomasbkahn/project-euler/tree/master/001)|33.1 µs|16.7 µs|159 µs|554 µs|Closed form|
-|[002](https://github.com/thomasbkahn/project-euler/tree/master/002)|||||Closed form|
+|[002](https://github.com/thomasbkahn/project-euler/tree/master/002)|6.93 µs|89.3 ns|211 ns|171 µs|Closed form|
 
 ## Timing Specs
 

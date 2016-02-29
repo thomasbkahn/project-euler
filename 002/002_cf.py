@@ -1,7 +1,27 @@
-def solution(a=3, b=5, n=1000):
-    """Computes sum of all multiples of a or b that are less than n"""
-    a_set = set(range(a, n, a))
-    return sum(a_set.union(range(b, n, b)))
+from math import sqrt, log
+
+
+phi = (1 + sqrt(5)) / 2
+
+
+def solution(n=4000000):
+    """Computes sum of all even-valued Fibonacci terms that are less than n."""
+    max_n = max_index(n)
+    max_n = (max_n - 3) // 3
+    term_1 = (phi ** 3) * geo_sum(phi ** 3, max_n)
+    term_2 = ((1 - phi) ** 3) * geo_sum((1 - phi) ** 3, max_n)
+    ans = (term_1 - term_2) / sqrt(5)
+    return int(round(ans, 0))
+
+
+def max_index(val):
+    """Computes maximum index of Fibonacci sequence that is less than val."""
+    return int(log(sqrt(5) * val, phi))
+
+
+def geo_sum(r, n):
+    """Computes sum of geometric series r**ni from 0 to n."""
+    return (1 - (r ** (n + 1))) / (1 - r)
 
 
 if __name__ == '__main__':
